@@ -77,31 +77,31 @@ Output:
 
 ```mermaid
 graph TD
-  A["User<br/>Query"] --> S["Sense<br/>Agent"]
-  S --> I["Intellect<br/>Agent"]
-  I -- YES --> M["Memory<br/>Agent"]
-  M <--> G["Knowledge<br/>Graph"]
-  M --> E["Ego<br/>Agent"]
-  I -- NO --> O["Orchestrator<br/>Agent"]
-  O --> A1["Action<br/>Agent 1"]
-  O --> A2["Action<br/>Agent 2"]
-  O --> A3["Action<br/>Agent 3"]
-  A1 <--> R1["Reaction<br/>Agent 1"]
-  A2 <--> R2["Reaction<br/>Agent 2"]
-  A3 <--> R3["Reaction<br/>Agent 3"]
-  R1 --> AA["Assembler<br/>Agent"]
-  R2 --> AA
-  R3 --> AA
-  AA --> E
-  E --> G
-  E --> U["Response<br/>User"]
+  A[User Query] --> S[Sense Agent]
+  S --> I[Intellect Agent]
+  I -- YES --> M[Memory Agent]
+  M <--> G[Knowledge Graph]
+  M --> E[Ego Agent]
+  I -- NO --> O[Orchestrator Agent]
+  O --> A1[Action Agent 1]
+  O --> A2[Action Agent 2]
+  O --> A3[Action Agent 3]
+  A1 <--> R1[Rection Agent 1]
+  A2 <--> R2[Rection Agent 2]
+  A3 <--> R3[Rection Agent 3]
+  R1 --> AA[Assembler Agent]
+  R2 --> AA[Assembler Agent]
+  R3 --> AA[Assembler Agent]
+  AA --> E[Ego Agent]
+  E --> G[Knowledge Graph]
+  E --> U[Response User]
 
-  %% GREEN links (YES path)
+  %% Styling green paths (YES path)
   linkStyle 2 stroke:green,stroke-width:2px      
   linkStyle 3 stroke:green,stroke-width:2px      
   linkStyle 4 stroke:green,stroke-width:2px      
 
-  %% RED links (NO path)
+  %% Styling red paths (NO path)
   linkStyle 5 stroke:red,stroke-width:2px       
   linkStyle 6 stroke:red,stroke-width:2px        
   linkStyle 7 stroke:red,stroke-width:2px        
@@ -114,24 +114,7 @@ graph TD
   linkStyle 14 stroke:red,stroke-width:2px       
   linkStyle 15 stroke:red,stroke-width:2px       
   linkStyle 16 stroke:red,stroke-width:2px       
-  linkStyle 17 stroke:red,stroke-width:2px       
-
-  %% Node size styling (in pixels)
-  style A width:150px
-  style S width:150px
-  style I width:160px
-  style M width:160px
-  style G width:160px
-  style E width:150px
-  style O width:170px
-  style A1 width:150px
-  style A2 width:150px
-  style A3 width:150px
-  style R1 width:160px
-  style R2 width:160px
-  style R3 width:160px
-  style AA width:160px
-  style U width:160px            
+  linkStyle 17 stroke:red,stroke-width:2px           
 ```
 
 
