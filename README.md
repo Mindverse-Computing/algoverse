@@ -78,10 +78,10 @@ Output:
 ```mermaid
 graph TD
   A[User Query] --> S[Sense Agent]
-  S --> M[Memory Agent]
-  M --> I[Intellect Agent]
-  M --> G[Knowledge Graph]
-  G --> M[Memory Agent]
+  S --> I[Intellect Agent]
+  I --> M[Memory Agent]
+  M --> AA[Assembler Agent]
+  AA --> E[Ego Agent]
   I --> A1[Action Agent 1]
   I --> A2[Action Agent 2]
   I --> A3[Action Agent 3]
