@@ -81,7 +81,6 @@ graph TD
   S --> I[Intellect Agent]
   I --> M[Memory Agent]
   M <--> G[Knowledge Graph]
-  AA --> E[Ego Agent]
   I --> A1[Action Agent 1]
   I --> A2[Action Agent 2]
   I --> A3[Action Agent 3]
