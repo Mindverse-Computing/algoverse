@@ -77,24 +77,24 @@ Output:
 
 ```mermaid
 graph TD
-  A[Query] --> S[Sense  ]
-  S --> I[Intellect  ]
-  I -- YES --> M[Memory  ]
-  M <--> G[Knowledge]
-  M --> E[Ego  ]
-  I -- NO --> O[Orchestrator  ]
-  O --> A1[Action 1  ]
-  O --> A2[Action 2  ]
-  O --> A3[Action 3  ]
-  A1 <--> R1[Rection 1  ]
-  A2 <--> R2[Rection 2  ]
-  A3 <--> R3[Rection 3  ]
-  R1 --> AA[Assembler  ]
-  R2 --> AA[Assembler  ]
-  R3 --> AA[Assembler  ]
-  AA --> E[Ego  ]
-  E --> G[Knowledge  ]
-  E --> U[Response  ]
+  A[Query] --> S[Sense Agent]
+  S --> I[Intellect Agent]
+  I -- YES --> M[Memory Agent]
+  M <--> G[Knowledge Graph]
+  M --> E[Ego Agent]
+  I -- NO --> O[Orchestrator Agent]
+  O --> A1[Action Agent 1]
+  O --> A2[Action Agent 2]
+  O --> A3[Action Agent 3]
+  A1 <--> R1[Reaction Agent 1]
+  A2 <--> R2[Reaction Agent 2]
+  A3 <--> R3[Reaction Agent 3]
+  R1 --> AA[Assembler Agent]
+  R2 --> AA
+  R3 --> AA
+  AA --> E
+  E --> G
+  E --> U[Response User]
 
   %% Styling green paths (YES path)
   linkStyle 2 stroke:green,stroke-width:2px      
@@ -114,7 +114,24 @@ graph TD
   linkStyle 14 stroke:red,stroke-width:2px       
   linkStyle 15 stroke:red,stroke-width:2px       
   linkStyle 16 stroke:red,stroke-width:2px       
-  linkStyle 17 stroke:red,stroke-width:2px           
+  linkStyle 17 stroke:red,stroke-width:2px       
+
+  %% Force wider node sizes to prevent text cut-off
+  style A width:130px
+  style S width:140px
+  style I width:160px
+  style M width:150px
+  style G width:170px
+  style E width:120px
+  style O width:170px
+  style A1 width:150px
+  style A2 width:150px
+  style A3 width:150px
+  style R1 width:160px
+  style R2 width:160px
+  style R3 width:160px
+  style AA width:160px
+  style U width:160px          
 ```
 
 
