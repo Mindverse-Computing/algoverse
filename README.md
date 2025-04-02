@@ -114,7 +114,24 @@ graph TD
   linkStyle 14 stroke:red,stroke-width:2px       
   linkStyle 15 stroke:red,stroke-width:2px       
   linkStyle 16 stroke:red,stroke-width:2px       
-  linkStyle 17 stroke:red,stroke-width:2px             
+  linkStyle 17 stroke:red,stroke-width:2px       
+
+  %% Node size styling (in pixels)
+  style A width:150px
+  style S width:150px
+  style I width:160px
+  style M width:160px
+  style G width:160px
+  style E width:150px
+  style O width:170px
+  style A1 width:150px
+  style A2 width:150px
+  style A3 width:150px
+  style R1 width:160px
+  style R2 width:160px
+  style R3 width:160px
+  style AA width:160px
+  style U width:160px            
 ```
 
 
