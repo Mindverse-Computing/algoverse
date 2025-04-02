@@ -77,30 +77,31 @@ Output:
 
 ```mermaid
 graph TD
-  A[User Query]:::big --> S[Sense Agent]:::big
-  S --> I[Intellect Agent]:::big
-  I -- YES --> M[Memory Agent]:::big
-  M <--> G[Knowledge Graph]:::big
-  M --> E[Ego Agent]:::big
-  I -- NO --> O[Orchestrator Agent]:::big
-  O --> A1[Action Agent 1]:::big
-  O --> A2[Action Agent 2]:::big
-  O --> A3[Action Agent 3]:::big
-  A1 <--> R1[Reaction Agent 1]:::big
-  A2 <--> R2[Reaction Agent 2]:::big
-  A3 <--> R3[Reaction Agent 3]:::big
-  R1 --> AA[Assembler Agent]:::big
+  A["User<br/>Query"] --> S["Sense<br/>Agent"]
+  S --> I["Intellect<br/>Agent"]
+  I -- YES --> M["Memory<br/>Agent"]
+  M <--> G["Knowledge<br/>Graph"]
+  M --> E["Ego<br/>Agent"]
+  I -- NO --> O["Orchestrator<br/>Agent"]
+  O --> A1["Action<br/>Agent 1"]
+  O --> A2["Action<br/>Agent 2"]
+  O --> A3["Action<br/>Agent 3"]
+  A1 <--> R1["Reaction<br/>Agent 1"]
+  A2 <--> R2["Reaction<br/>Agent 2"]
+  A3 <--> R3["Reaction<br/>Agent 3"]
+  R1 --> AA["Assembler<br/>Agent"]
   R2 --> AA
   R3 --> AA
   AA --> E
   E --> G
-  E --> U[Response User]:::big
+  E --> U["Response<br/>User"]
 
-
+  %% GREEN links (YES path)
   linkStyle 2 stroke:green,stroke-width:2px      
   linkStyle 3 stroke:green,stroke-width:2px      
   linkStyle 4 stroke:green,stroke-width:2px      
 
+  %% RED links (NO path)
   linkStyle 5 stroke:red,stroke-width:2px       
   linkStyle 6 stroke:red,stroke-width:2px        
   linkStyle 7 stroke:red,stroke-width:2px        
@@ -113,9 +114,7 @@ graph TD
   linkStyle 14 stroke:red,stroke-width:2px       
   linkStyle 15 stroke:red,stroke-width:2px       
   linkStyle 16 stroke:red,stroke-width:2px       
-  linkStyle 17 stroke:red,stroke-width:2px       
-
-  classDef big stroke:#333,stroke-width:3px,font-size:14px,font-weight:bold;       
+  linkStyle 17 stroke:red,stroke-width:2px             
 ```
 
 
