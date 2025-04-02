@@ -92,7 +92,7 @@ graph TD
   R2 --> E[Ego Agent]
   R3 --> E[Ego Agent]
   E --> G[Knowledge Graph]
-  E --> U[User]
+  E --> U[Response User]
 ```
 
 ---
