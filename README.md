@@ -79,10 +79,10 @@ Output:
 graph TD
   A[User Query] --> S[Sense Agent]
   S --> I[Intellect Agent]
-  I --YES--> M[Memory Agent]
+  I -- YES --> M[Memory Agent]
   M <--> G[Knowledge Graph]
   M --> E[Ego Agent]
-  I --NO--> O[Orchestrator Agent]
+  I -- NO --> O[Orchestrator Agent]
   O --> A1[Action Agent 1]
   O --> A2[Action Agent 2]
   O --> A3[Action Agent 3]
