@@ -84,8 +84,13 @@ graph TD
   G --> M[Memory Agent]
   I --> A1[Action Agent 1]
   I --> A2[Action Agent 2]
-  A1 --> E[Ego Agent]
-  A2 --> E
+  I --> A3[Action Agent 3]
+  A1 --> R1[Rection Agent 1]
+  A2 --> R2[Rection Agent 2]
+  A3 --> R3[Rection Agent 3]
+  R1 --> E[Ego Agent]
+  R2 --> E[Ego Agent]
+  R3 --> E[Ego Agent]
   E --> G[Knowledge Graph]
   E --> U[User]
 ```
