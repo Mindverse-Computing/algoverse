@@ -90,7 +90,7 @@ graph TD
   R1 --> AA[Assembler Agent]
   R2 --> AA[Assembler Agent]
   R3 --> AA[Assembler Agent]
-  AA --> E [Ego Agent]
+  AA --> E[Ego Agent]
   E --> G[Knowledge Graph]
   E --> U[Response User]
 ```
