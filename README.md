@@ -93,7 +93,6 @@ graph TD
   R2 --> AA
   R3 --> AA
   AA --> E
-  E --> G
   E --> U[Response<br>User]
 
   %% Styling green paths (YES path)
