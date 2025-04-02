@@ -97,24 +97,24 @@ graph TD
   E --> U[Response User]
 
   %% Styling green paths (YES path)
-  linkStyle 2 stroke:green,stroke-width:2px      %% I --> M
-  linkStyle 3 stroke:green,stroke-width:2px      %% M <--> G (first half)
-  linkStyle 4 stroke:green,stroke-width:2px      %% M --> E
+  linkStyle 2 stroke:green,stroke-width:2px      
+  linkStyle 3 stroke:green,stroke-width:2px      
+  linkStyle 4 stroke:green,stroke-width:2px      
 
   %% Styling red paths (NO path)
-  linkStyle 5 stroke:red,stroke-width:2px        %% I --> O
-  linkStyle 6 stroke:red,stroke-width:2px        %% O --> A1
-  linkStyle 7 stroke:red,stroke-width:2px        %% O --> A2
-  linkStyle 8 stroke:red,stroke-width:2px        %% O --> A3
-  linkStyle 9 stroke:red,stroke-width:2px        %% A1 <--> R1
-  linkStyle 10 stroke:red,stroke-width:2px       %% A2 <--> R2
-  linkStyle 11 stroke:red,stroke-width:2px       %% A3 <--> R3
-  linkStyle 12 stroke:red,stroke-width:2px       %% R1 --> AA
-  linkStyle 13 stroke:red,stroke-width:2px       %% R2 --> AA
-  linkStyle 14 stroke:red,stroke-width:2px       %% R3 --> AA
-  linkStyle 15 stroke:red,stroke-width:2px       %% AA --> E
-  linkStyle 16 stroke:red,stroke-width:2px       %% E --> G
-  linkStyle 17 stroke:red,stroke-width:2px       %% E --> U
+  linkStyle 5 stroke:red,stroke-width:2px       
+  linkStyle 6 stroke:red,stroke-width:2px        
+  linkStyle 7 stroke:red,stroke-width:2px        
+  linkStyle 8 stroke:red,stroke-width:2px        
+  linkStyle 9 stroke:red,stroke-width:2px        
+  linkStyle 10 stroke:red,stroke-width:2px       
+  linkStyle 11 stroke:red,stroke-width:2px       
+  linkStyle 12 stroke:red,stroke-width:2px       
+  linkStyle 13 stroke:red,stroke-width:2px       
+  linkStyle 14 stroke:red,stroke-width:2px       
+  linkStyle 15 stroke:red,stroke-width:2px       
+  linkStyle 16 stroke:red,stroke-width:2px       
+  linkStyle 17 stroke:red,stroke-width:2px       
 ```
 
 
