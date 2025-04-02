@@ -98,7 +98,7 @@ graph TD
 
   %% Styling links
   linkStyle 2 stroke:green,stroke-width:2px
-  linkStyle 15 stroke:red,stroke-width:2px
+  linkStyle 3 stroke:red,stroke-width:2px
 ```
 
 
