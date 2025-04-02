@@ -1,0 +1,18 @@
+[
+    {
+      "id": "p001",
+      "title": "Two Sum",
+      "definition": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target."
+    },
+    {
+      "id": "p002",
+      "title": "Palindrome Check",
+      "definition": "Write a function that checks if a given string is a palindrome. Ignore casing and non-alphanumeric characters."
+    },
+    {
+      "id": "p003",
+      "title": "FizzBuzz",
+      "definition": "Write a function that prints numbers from 1 to n. But for multiples of 3 print 'Fizz' instead of the number, and for the multiples of 5 print 'Buzz'. For numbers which are multiples of both three and five print 'FizzBuzz'."
+    }
+  ]
+  
