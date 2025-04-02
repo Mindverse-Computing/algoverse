@@ -93,6 +93,7 @@ graph TD
   R2 --> AA
   R3 --> AA
   AA --> E
+  E --> M
   E --> U[Response<br>User]
 
   %% Styling green paths (YES path)
@@ -112,7 +113,8 @@ graph TD
   linkStyle 13 stroke:red,stroke-width:2px       
   linkStyle 14 stroke:red,stroke-width:2px       
   linkStyle 15 stroke:red,stroke-width:2px       
-  linkStyle 16 stroke:red,stroke-width:2px       
+  linkStyle 16 stroke:red,stroke-width:2px
+  linkStyle 17 stroke:red,stroke-width:2px     
 
   %% Force wider node styles to prevent cut-off
   style A width:140px
