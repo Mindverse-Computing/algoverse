@@ -115,7 +115,7 @@ graph TD
   linkStyle 16 stroke:red,stroke-width:2px       
   linkStyle 17 stroke:red,stroke-width:2px       
 
-  classDef big fill:#f9f9f9,stroke:#333,stroke-width:2px,font-size:16px,font-weight:bold;       
+  classDef big stroke:#333,stroke-width:3px,font-size:16px,font-weight:bold;       
 ```
 
 
