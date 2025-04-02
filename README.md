@@ -79,10 +79,10 @@ Output:
 graph TD
   A[User Query] --> S[Sense Agent]
   S --> I[Intellect Agent]
-  I --> M[Memory Agent]
+  I --YES--> M[Memory Agent]
   M <--> G[Knowledge Graph]
   M --> E[Ego Agent]
-  I --> O[Orchestrator Agent]
+  I --NO--> O[Orchestrator Agent]
   O --> A1[Action Agent 1]
   O --> A2[Action Agent 2]
   O --> A3[Action Agent 3]
@@ -95,32 +95,12 @@ graph TD
   AA --> E[Ego Agent]
   E --> G[Knowledge Graph]
   E --> U[Response User]
-```
-
-graph TD
-  A[User Query] --> S[Sense Agent]
-  S --> I[Intellect Agent]
-  I --> M[Memory Agent]
-  M -- YES --> E[Ego Agent]
-  I --> O[Orchestrator Agent]
-  O --> A1[Action Agent 1]
-  O --> A2[Action Agent 2]
-  O --> A3[Action Agent 3]
-  A1 <--> R1[Rection Agent 1]
-  A2 <--> R2[Rection Agent 2]
-  A3 <--> R3[Rection Agent 3]
-  R1 --> AA[Assembler Agent]
-  R2 --> AA[Assembler Agent]
-  R3 --> AA[Assembler Agent]
-  AA --> E[Ego Agent]
-  E --> G[Knowledge Graph]
-  E --> U[Response User]
-  M <--> G[Knowledge Graph]
-  M -- NO --> I[Intellect Agent]
 
   %% Styling links
   linkStyle 2 stroke:green,stroke-width:2px
   linkStyle 15 stroke:red,stroke-width:2px
+```
+
 
 
 ---
