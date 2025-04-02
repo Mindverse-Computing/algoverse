@@ -94,7 +94,7 @@ graph TD
   R3 --> AA
   AA --> E
   E --> G
-  E --> U[Response to<br>User]
+  E --> U[Response<br>User]
 
   %% Styling green paths (YES path)
   linkStyle 2 stroke:green,stroke-width:2px      
