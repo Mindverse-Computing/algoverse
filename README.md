@@ -1,9 +1,9 @@
 
-# 🧠 Codebrain
+# Algoverse
 
 > The Thinking Engine Behind Every Line of Code
 
-**Codebrain** is a brain-inspired multi-agent AI system that solves Python coding interview problems through cognitive simulation. It integrates:
+**Algoverse** is a brain-inspired multi-agent AI system that solves Python coding interview problems through cognitive simulation. It integrates:
 - ✅ LangChain agents for reasoning
 - ✅ A knowledge graph memory (Neo4j) for long-term learning
 - ✅ Structured output parsing for explainability
@@ -149,7 +149,7 @@ graph TD
 ### Files
 
 ```
-codebrain/
+algoverse/
 │
 ├── README.md                   # Project introduction and usage guide
 ├── requirements.txt            # Python dependencies
